@@ -20,7 +20,7 @@ const TaskAdder = (props) => {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        ... New activity:
+        ... Add activity:
         <input
           value={input}
           placeholder="New activity here"
