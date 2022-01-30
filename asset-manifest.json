@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/activity-generator/static/css/main.200e625a.css",
-    "main.js": "/activity-generator/static/js/main.45edfde4.js",
+    "main.js": "/activity-generator/static/js/main.e6ceebfc.js",
     "index.html": "/activity-generator/index.html",
     "main.200e625a.css.map": "/activity-generator/static/css/main.200e625a.css.map",
-    "main.45edfde4.js.map": "/activity-generator/static/js/main.45edfde4.js.map"
+    "main.e6ceebfc.js.map": "/activity-generator/static/js/main.e6ceebfc.js.map"
   },
   "entrypoints": [
     "static/css/main.200e625a.css",
-    "static/js/main.45edfde4.js"
+    "static/js/main.e6ceebfc.js"
   ]
 }
