@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/activity-generator/static/css/main.36f713c8.css",
-    "main.js": "/activity-generator/static/js/main.464d708c.js",
+    "main.css": "/activity-generator/static/css/main.200e625a.css",
+    "main.js": "/activity-generator/static/js/main.45edfde4.js",
     "index.html": "/activity-generator/index.html",
-    "main.36f713c8.css.map": "/activity-generator/static/css/main.36f713c8.css.map",
-    "main.464d708c.js.map": "/activity-generator/static/js/main.464d708c.js.map"
+    "main.200e625a.css.map": "/activity-generator/static/css/main.200e625a.css.map",
+    "main.45edfde4.js.map": "/activity-generator/static/js/main.45edfde4.js.map"
   },
   "entrypoints": [
-    "static/css/main.36f713c8.css",
-    "static/js/main.464d708c.js"
+    "static/css/main.200e625a.css",
+    "static/js/main.45edfde4.js"
   ]
 }
