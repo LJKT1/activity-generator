@@ -2,6 +2,10 @@ import { useState } from "react";
 import newTasks from "./data";
 import TaskAdder from "./TaskAdder";
 
+function refreshPage() {
+  window.location.reload(false);
+}
+
 const ToDoList = () => {
   const [todos, setTodos] = useState([]);
 
@@ -21,17 +25,7 @@ const ToDoList = () => {
       >
         Bored?
       </button>
-      <button
-        onClick={() => {
-          setTodos((currTodos) => {
-            const newTodos = [...currTodos];
-            newTodos.shift();
-            return newTodos;
-          });
-        }}
-      >
-        Busy?
-      </button>
+      <button onClick={refreshPage}>Reset</button>
       <table>
         {todos.map((todo, index) => {
           return (
