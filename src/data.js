@@ -1,4 +1,5 @@
 const newTasks = [
+  // done property could be used to add further functionality
   { id: 1, task: "Go shopping", done: false },
   { id: 2, task: "Play guitar", done: false },
   { id: 3, task: "Have a bath", done: false },
@@ -20,6 +21,8 @@ const newTasks = [
   { id: 19, task: "Design a puzzle", done: false },
   { id: 20, task: "Learn some new dance moves", done: false },
   { id: 21, task: "Do 50 star jumps", done: false },
+  { id: 22, task: "Visit a museum", done: false },
+  { id: 23, task: "Write a letter", done: false },
 ];
 
 export default newTasks;

@@ -1,28 +1,19 @@
 * {
   background-color: cornflowerblue;
   font-family: monospace;
+  text-align: left;
 }
 
 .App {
-  text-align: left;
-  font-size: 20px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .Header {
-  text-align: center;
   color: darkblue;
-  font: 1000px;
-  font-weight: 1000;
-  border: 2px solid darkblue;
-}
-
-form {
-  display: flex;
-  flex-direction: row;
-}
-
-ul {
-  list-style-type: none;
+  font-size: 30px;
+  padding: 20px;
 }
 
 input {
@@ -30,8 +21,16 @@ input {
   background-color: lightskyblue;
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 10px;
-  padding: 10px 10px 10px 10px;
+  border-radius: 10%;
+  padding: 5px 5px;
+}
+
+label {
+  margin: 10px;
+}
+
+table {
+  margin: 10px;
 }
 
 button {
@@ -39,16 +38,20 @@ button {
   padding: 10px 10px 10px 10px;
   color: black;
   background-color: rgb(85, 85, 197);
-  align-self: center;
-  margin-left: 60px;
-  margin-right: 60px;
-  border-radius: 10px;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+.todo-cells {
+  width: 75%;
+}
+
+.done-cells {
+  width: 25%;
 }
 
 .small_button {
   background-color: deepskyblue;
-  padding: 5px, 5px, 5px, 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  align-self: right;
+  padding: 5px;
+  margin: 5px;
 }

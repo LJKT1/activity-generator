@@ -32,27 +32,29 @@ const ToDoList = () => {
       >
         Busy?
       </button>
-      <ul>
+      <table>
         {todos.map((todo, index) => {
           return (
-            <li key={index}>
-              {todo}
-              <button
-                className="small_button"
-                onClick={() => {
-                  setTodos((currTodos) => {
-                    const newTodos = [...currTodos];
-                    newTodos.splice(index, 1);
-                    return newTodos;
-                  });
-                }}
-              >
-                Done?
-              </button>
-            </li>
+            <tr key={index}>
+              <td className="todo-cells">{todo}</td>
+              <td className="done-cells">
+                <button
+                  className="small_button"
+                  onClick={() => {
+                    setTodos((currTodos) => {
+                      const newTodos = [...currTodos];
+                      newTodos.splice(index, 1);
+                      return newTodos;
+                    });
+                  }}
+                >
+                  Done!
+                </button>
+              </td>
+            </tr>
           );
         })}
-      </ul>
+      </table>
       <TaskAdder setTodos={setTodos} />
     </>
   );
