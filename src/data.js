@@ -3,7 +3,7 @@ const newTasks = [
   { id: 1, task: "Go shopping", done: false },
   { id: 2, task: "Play guitar", done: false },
   { id: 3, task: "Have a bath", done: false },
-  { id: 4, task: "Cook some pizza", done: false },
+  { id: 4, task: "Make a pizza", done: false },
   { id: 5, task: "Read a book", done: false },
   { id: 6, task: "Clean the bathroom", done: false },
   { id: 7, task: "Walk the dog", done: false },
